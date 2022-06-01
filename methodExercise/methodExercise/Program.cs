@@ -6,6 +6,16 @@ namespace methodExercise
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("What is your name?");
+            var name = Console.ReadLine();
+            Console.WriteLine("Enter your favorite activity.");
+            var activity =Console.ReadLine();
+            Console.WriteLine("What is your favorite animal?");
+            var animal = Console.ReadLine();
+            Console.WriteLine("What is your favorite music?");
+            var music = Console.ReadLine();
+            Console.WriteLine($"My name is {name} and I enjoy {activity}. I love listening to {music} and my favorite animal is {animal}");
+
             Console.WriteLine("Addition:");
             Console.WriteLine(Add(9, 4));
             Console.WriteLine("Subtraction:");
